@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Laralink">
+    <!-- Favicon Icon -->
+    <link rel="icon" href="assets/img/favicon.png">
+    <!-- Site Title -->
+    <title>Partosa - Personal Resume and Portfolio Template</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+      .cs_demos {
+      min-height: 100vh;
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+  }
+  .cs_demo {
+      width: 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: top center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding: 30px;
+      height: 100vh;
+  }
+  .cs_demo:first-child,
+  .cs_demo:nth-child(3) {
+  border-right: 1px solid #222222;
+  }
+  .cs_demo:first-child,
+  .cs_demo:nth-child(2) {
+  border-bottom: 1px solid #222222;
+  }
+  .cs_demo:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.9);
+  }
+  .cs_demo-link {
+      max-width: 550px;
+      position: relative;
+      z-index: 2;
+      transition: all 0.3s ease;
+  }
+  .cs_demo-link img {
+      max-width: 100%;
+  }
+  .cs_demo-link:hover {
+      -webkit-transform: translateY(-7px);
+      -ms-transform: translateY(-7px);
+      transform: translateY(-7px);
+  }
+  .cs_demo-link h2 {
+      margin-bottom: 0;
+      position: absolute;
+      display: inline-block;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: 36px;
+      font-weight: 700;
+      left: -10%;
+      top: 50%;
+      -webkit-transform: rotate(-90deg) translate(-50%, 0);
+      -ms-transform: rotate(-90deg) translate(-50%, 0);
+      transform: rotate(-90deg) translate(-50%, 0);
+      -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+      transform-origin: 0 0;
+      color: rgba(255, 255, 255, 0.45);
+  }
+  @media screen and (max-width: 1400px) {
+    .cs_demo-link {
+      max-width: 410px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .cs_demo-link h2 {
+      position: initial;
+      transform: initial;
+      text-align: center;
+      width: 100%;
+      margin-top: 15px;
+      font-size: 24px;
+    }
+    .cs_demo {
+      height: initial;
+  }
+  }
+  @media screen and (max-width: 575px) {
+    .cs_demos {
+      display: block;
+  }
+  
+  .cs_demo {
+      padding: 40px 30px 30px;
+      width: 100%;
+  }
+  .cs_demo:first-child,
+  .cs_demo:nth-child(3) {
+  border-right: none;
+  }
+  .cs_demo:first-child,
+  .cs_demo:nth-child(2) {
+  border-bottom: none;
+  }
+  }
+    </style>
+  </head>
+  <body>
+    <div class="cs_demos">
+      <div class="cs_demo" style="background-image: url(assets/img/demo/demo-2.jpeg);">
+        <a href="index-v2.html" class="cs_demo-link" target="_blank">
+          <img src="assets/img/demo/demo-2.jpeg" alt="">
+          <h2>Portfolio V1</h2>
+        </a>
+      </div>
+      <div class="cs_demo" style="background-image: url(assets/img/demo/demo-1.jpeg);">
+        <a href="index.html" class="cs_demo-link" target="_blank">
+          <img src="assets/img/demo/demo-1.jpeg" alt="">
+          <h2>Portfolio V2</h2>
+        </a>
+      </div>
+      <div class="cs_demo" style="background-image: url(assets/img/demo/demo-3.jpeg);">
+        <a href="index-v3.html" class="cs_demo-link" target="_blank">
+          <img src="assets/img/demo/demo-3.jpeg" alt="">
+          <h2>Portfolio V3</h2>
+        </a>
+      </div>
+      <div class="cs_demo" style="background-image: url(assets/img/demo/demo-4.jpeg);">
+        <a href="index-v4.html" class="cs_demo-link" target="_blank">
+          <img src="assets/img/demo/demo-4.jpeg" alt="">
+          <h2>Portfolio V4</h2>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
